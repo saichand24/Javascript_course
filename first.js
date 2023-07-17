@@ -1,11 +1,6 @@
-let radius = 5
-const pi = 3.14
+let data = 8      //number
+let user = 'saichand'   //string
 
-let area
+let num1 = 2323262326566561n
 
-
-radius = 6 
-
-area = pi * radius * radius
-
-console.log(area)
+console.log(num1)
