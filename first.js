@@ -1,39 +1,49 @@
-//string
+// let num = 6
+// console.log(num)
 
-// let firstName = 'sai'
-// let lastName = 'chand'
+// let num = 6
+// console.log(num, typeof num)       //6 number
 
-// let user = firstName + ' ' + lastName  //printing with space
+// let num = String(6)
+// console.log(num, typeof num)        //6 string
 
-// console.log(user)
+// let num = Number("123")
+// console.log(num, typeof num)         //123 number
 
-// let user = 'saichand klauvala'
-// console.log(user);
+// let x
+// console.log(x, typeof x)             //undefined undefined
 
-// let user = 'saichand "klauvala"'  //printing in double quotes
-// console.log(user);
+// let x
+// console.log(x, typeof x);       //undefined undefined
+// x = 8
+// console.log(x, typeof x);       //8 number
+// x = x + ""
+// console.log(x, typeof x);       //8 string
+// x = x - 2                               //type coercion
+// console.log(x, typeof x);       //6 number
+// x = !x
+// console.log(x, typeof x);       //false boolean
 
+// console.log(Boolean(7))         //true
+// console.log(Boolean(-7))        //true
+// console.log(Boolean(0))         //false      //all the numbers are true only 0 is false 
+// console.log(Boolean(null))      //false           
+// console.log(Boolean(undefined)) //false               
+// console.log(Boolean("saichand"))//true               
 
-// let user = 'saichand \'klauvala\''  //"\"escape charecter
-// console.log(user);
+// let x
+// console.log(x, typeof x);       //undefined undefined
+// x = 8
+// console.log(x, typeof x);       //8 number
+// x = x + ""
+// console.log(x, typeof x);       //8 string
+// x = x + 2                               
+// console.log(x, typeof x);       //82 string 
+// x = +x + 2                               
+// console.log(x, typeof x);       //84 number
 
-// let user = "sai\nchand"  //"\n"new line
-// console.log(user);
+// let x = Number("123 Saichand")  
+// console.log(x);                  //NAN (not a number)
 
-// let user = "sai\tchand"  //"\t"to use tab
-// console.log(user);
-
-
-//boolean
-
-// let bool = 5 > 6    //false
-// console.log(bool)
-
-// let bool = 5 > 6       
-// console.log(typeof bool)
-
-// let user = null 
-// console.log(user)
-
-// let user             //undefined
-// console.log(user)
+let x = parseInt("123 Saichand")
+console.log(x);                     //123
