@@ -45,5 +45,52 @@
 // let x = Number("123 Saichand")  
 // console.log(x);                  //NAN (not a number)
 
-let x = parseInt("123 Saichand")
-console.log(x);                     //123
+// let x = parseInt("123 Saichand")
+// console.log(x);                     //123
+
+//arithmetic operators
+
+// let num1 = 4
+// let num2 = 2
+// let result = num1 + num2
+// console.log(result);                    //6
+
+// let num1 = 5
+// let num2 = 2
+// let result = num1 % num2
+// console.log(result);                        //1
+
+
+// let num1 = true
+// let num2 = true
+// let result = num1 + num2
+// console.log(result);                         //2 
+
+
+// let num = 4
+// num = num + 2
+// console.log(num);                               //6       
+
+// let num = 4
+// num += 2
+// console.log(num);                       //6
+
+// let num = 4
+// num++ 
+// console.log(num);                       //5
+
+// let num = 4
+// num++ //post increment
+// ++num  //pre increment
+
+// let num = 4
+// let x = num++   //post increment
+// console.log(x, num);                    //4 5
+ 
+// let num = 4
+// let result = num * num * num
+// console.log(result)                         //64
+
+let num = 4
+let result = Math.pow(4,3)
+console.log(result) 
