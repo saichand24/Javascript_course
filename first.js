@@ -134,8 +134,50 @@
 // let data = x === y
 // console.log(data);                              //false
 
-let x = " "
-let y = false
+// let x = " "
+// let y = false
 
-let data = x === y
-console.log(data);                              //false
+// let data = x === y
+// console.log(data);                              //false
+
+// Logical Operators in JavaScript
+
+// let x =7, y = 8, z = 9
+
+// let result = x < y
+// console.log(result);                            //true
+
+// let x =7, y = 8, z = 9
+
+// let result = x < y x < z 
+// console.log(result);
+
+// And &&
+// OR  |
+// Not ~
+
+// let x =7, y = 8, z = 9
+
+// let result = x < y && x < z 
+// console.log(result);                        //true
+
+// let x =7, y = 8, z = 5
+
+// let result = x < y && x < z 
+// console.log(result);                            //false    
+
+// let x =7, y = 8, z = 5
+
+// let result = x < y || x < z 
+// console.log(result);                        //true
+
+// let x =7, y = 2, z = 5
+
+// let result = x < y || x < z 
+// console.log(result);                        //false 
+
+let x =7, y = 2, z = 5
+
+let result = x < y || x < z 
+let n = !result
+console.log(result, n);                     //false true
