@@ -91,6 +91,51 @@
 // let result = num * num * num
 // console.log(result)                         //64
 
-let num = 4
-let result = Math.pow(4,3)
-console.log(result) 
+// let num = 4
+// let result = Math.pow(4,3)
+// console.log(result) 
+
+//Relational operators
+
+// console.log(5 > 6);                     //false
+
+// console.log(7 > 6);                     //true
+
+// let data = 7 > 6
+// console.log(data);                         //true
+
+// let x = 6
+// let y = 6
+
+// let data = x >= y
+// console.log(data);                          //true
+
+// let x = "pen"
+// let y = "book"
+
+// let data = x > y
+// console.log(data);                              //true
+
+// let x = "pen"
+// let y = "pencil"
+
+// let data = x > y
+// console.log(data);                          //false
+
+// let x = 3
+// let y = 3
+
+// let data = x == y
+// console.log(data);                          //true
+
+// let x = "3"
+// let y = 3
+
+// let data = x === y
+// console.log(data);                              //false
+
+let x = " "
+let y = false
+
+let data = x === y
+console.log(data);                              //false
