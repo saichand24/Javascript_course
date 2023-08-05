@@ -317,9 +317,100 @@
 
 //---------------------------------------------------------------------------------------------
 
-let num = 7
-let result
+// let num = 7
+// let result
 
-result = num%2===0 ? "Even" : "Odd"
+// result = num%2===0 ? "Even" : "Odd"
 
-console.log(result);                                //Odd
+// console.log(result);                                //Odd
+
+//--------------------------------------------------------------------------------------
+
+// Switch Statement in JavaScript
+
+//Moday - 7am
+//Tue - Thurs - 4am
+//Fri - 9am
+//Sat -Sun - 8am
+
+// let day = "Sunday"
+
+// switch(day){
+//     case 'Monday':
+//         console.log("7am");
+//     case 'Tuesday':
+//         console.log("4am")
+//     case 'Wednesday':
+//         console.log("4am");
+//     case 'Thursday':
+//         console.log("4am")
+//     case 'Friday':
+//         console.log("9am");
+//     case 'Saturday':
+//         console.log("8am")
+//     case 'Sunday':
+//         console.log("8am")                          // 8am
+// }
+//----------------------------------------------------------------------
+// let day = "Sunday"
+
+// switch(day){
+//     case 'Monday':
+//         console.log("7am");
+//         break;
+//     case 'Tuesday':
+//         console.log("4am")
+//     case 'Wednesday':
+//         console.log("4am");
+//     case 'Thursday':
+//         console.log("4am")
+//     case 'Friday':
+//         console.log("9am");
+//     case 'Saturday':
+//         console.log("8am")
+//     case 'Sunday':
+//         console.log("8am")                          // 7am
+// }
+//----------------------------------------------------------------------------------
+// let day = "Wednesday"
+
+// switch(day){
+//     case 'Monday':
+//         console.log("7am");
+//         break;
+//     case 'Tuesday':
+//     case 'Wednesday':
+//     case 'Thursday':
+//         console.log("4am")
+//         break;
+//     case 'Friday':
+//         console.log("9am");
+//         break;
+//     case 'Saturday':
+//     case 'Sunday':
+//         console.log("8am") 
+//         break;                         // 4am
+// }
+
+//----------------------------------------------------------------------------------------------
+// let day = "Holiday"
+
+// switch(day){
+//     case 'Monday':
+//         console.log("7am");
+//         break;
+//     case 'Tuesday':
+//     case 'Wednesday':
+//     case 'Thursday':
+//         console.log("4am")
+//         break;
+//     case 'Friday':
+//         console.log("9am");
+//         break;
+//     case 'Saturday':
+//     case 'Sunday':
+//         console.log("8am") 
+//         break;  
+//     default:
+//         console.log("7am")                       // 7am
+// }
