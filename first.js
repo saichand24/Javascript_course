@@ -275,5 +275,51 @@
 // }
 
 // console.log("Bye....."); 
+//----------------------------------------------------------------------------------------
 
+// Ternary Operator in JavaScript
 
+// let num = 5
+// let result
+
+// if(num%2===0)
+//     result = "Even"
+// else
+//     result = "Odd"
+
+// console.log(result);                            // Odd
+
+//-----------------------------------------------------------------------------------------------
+
+// let num = 8
+// let result
+
+// if(num%2===0)
+//     result = "Even"
+// else
+//     result = "Odd"
+
+// console.log(result);                            // Even
+//----------------------------------------------------------------------------
+// let num = 8
+// let result
+
+// // if(num%2===0)
+// //     result = "Even"
+// // else
+// //     result = "Odd"
+
+// // ?: Ternary Operator
+
+// result = num%2===0 ? "Even" : "Odd"
+
+// console.log(result);                                //Even
+
+//---------------------------------------------------------------------------------------------
+
+let num = 7
+let result
+
+result = num%2===0 ? "Even" : "Odd"
+
+console.log(result);                                //Odd
