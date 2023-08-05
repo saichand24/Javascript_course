@@ -100,53 +100,53 @@
 // console.log(5 > 6);                     //false
 
 // console.log(7 > 6);                     //true
-
+//-----------------------------------------------------------
 // let data = 7 > 6
 // console.log(data);                         //true
-
+//--------------------------------------------------------------
 // let x = 6
 // let y = 6
 
 // let data = x >= y
 // console.log(data);                          //true
-
+//---------------------------------------------------------------
 // let x = "pen"
 // let y = "book"
 
 // let data = x > y
 // console.log(data);                              //true
-
+//-----------------------------------------------------------
 // let x = "pen"
 // let y = "pencil"
 
 // let data = x > y
 // console.log(data);                          //false
-
+//-------------------------------------------------------------
 // let x = 3
 // let y = 3
 
 // let data = x == y
 // console.log(data);                          //true
-
+//-------------------------------------------------------------
 // let x = "3"
 // let y = 3
 
 // let data = x === y
 // console.log(data);                              //false
-
+//---------------------------------------------------------------
 // let x = " "
 // let y = false
 
 // let data = x === y
 // console.log(data);                              //false
-
+//--------------------------------------------------------------
 // Logical Operators in JavaScript
 
 // let x =7, y = 8, z = 9
 
 // let result = x < y
 // console.log(result);                            //true
-
+//-------------------------------------------------------------
 // let x =7, y = 8, z = 9
 
 // let result = x < y x < z 
@@ -155,29 +155,125 @@
 // And &&
 // OR  |
 // Not ~
-
+//---------------------------------------------------------
 // let x =7, y = 8, z = 9
 
 // let result = x < y && x < z 
 // console.log(result);                        //true
-
+//------------------------------------------------------------
 // let x =7, y = 8, z = 5
 
 // let result = x < y && x < z 
 // console.log(result);                            //false    
-
+//--------------------------------------------------------------
 // let x =7, y = 8, z = 5
 
 // let result = x < y || x < z 
 // console.log(result);                        //true
-
+//-----------------------------------------------------------
 // let x =7, y = 2, z = 5
 
 // let result = x < y || x < z 
 // console.log(result);                        //false 
+//----------------------------------------------------------
+// let x =7, y = 2, z = 5
+// let result = x < y || x < z 
+// let n = !result
+// console.log(result, n);                     //false true
 
-let x =7, y = 2, z = 5
+// Conditional Statements If Else in JavaScript
 
-let result = x < y || x < z 
-let n = !result
-console.log(result, n);                     //false true
+// let num1 = 6;
+// let num2 = 4;
+
+// let result = num1 > num2;
+
+// if(result)
+//     console.log("num1 is greater");              //num1 is greater /n Bye.....
+
+// console.log("Bye.....");
+//---------------------------------------------------------------
+
+// let num1 = 3;
+// let num2 = 4;
+
+// let result = num1 > num2;
+
+// if(result)
+//     console.log("num1 is greater");              // Bye....    
+
+// console.log("Bye.....");                            
+//------------------------------------------------------------------------
+// let num1 = 3;
+// let num2 = 4;
+
+// let result = num1 > num2;
+
+// if(result)
+//     console.log("num1 is greater");              // num2 is greater  /n Bye....
+// else
+//     console.log("num2 is greater");
+
+// console.log("Bye.....");      
+//---------------------------------------------------------------------------
+// let num1 = 3;
+// let num2 = 4;
+
+// if(num1 > num2)
+//     console.log("num1 is greater");              // num2 is greater  /n yeee /n Bye....
+// else
+//     console.log("num2 is greater");
+//     console.log("yeee");
+
+// console.log("Bye.....");      
+//-----------------------------------------------------------------------------
+
+// let num1 = 6;
+// let num2 = 4;
+
+// if(num1 > num2){
+//     console.log("num1 is greater");   
+// }                                                  // num1 is greater /n Bye....
+// else{
+//     console.log("num2 is greater");
+//     console.log("yeee");
+// }
+
+// console.log("Bye....."); 
+//-----------------------------------------------------------------------------------------
+
+// let num1 = 6;
+// let num2 = 4;
+// let num3 = 7;
+
+// if(num1 > num2 && num1 > num3){
+//     console.log("num1 is greatest");   
+// }                                                  // num3 is greatest /n Bye....
+// else if(num2 > num1 && num2 > num3){
+//     console.log("num2 is greatest");
+// }
+// else{
+//     console.log("num3 is greatest")
+// }
+
+// console.log("Bye....."); 
+
+//--------------------------------------------------------------------------------------------------
+
+// let num1 = 10;
+// let num2 = 4;
+// let num3 = 7;
+
+// if(num1 > num2 && num1 > num3){
+//     console.log("num1 is greatest");   
+// }                                                  // num1 is greatest /n Bye....
+// else if(num2 > num1 && num2 > num3){
+//     console.log("num2 is greatest");
+// }
+// else{
+//     console.log("num3 is greatest")
+// }
+
+// console.log("Bye....."); 
+
+
