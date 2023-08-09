@@ -691,14 +691,44 @@
 
 //Methods in JavaScript?
 
+// let laptop = {
+//     cpu: 'i9',
+//     ram: '16',
+//     brand: 'HP',
+
+//     greet: function(){
+//         console.log('Hello World');
+//     }
+// }
+
+// laptop.greet();
+
+//-------------------------------------------------------------------------------------
+
+//this | JavaScript
+
+// let laptop = {
+//     cpu: 'i9',
+//     ram: '16',
+//     brand: 'HP',
+
+//     getConfig: function(){
+        
+//         console.log(laptop.cpu);
+//     }
+// }
+
+// laptop.getConfig();
+
 let laptop = {
     cpu: 'i9',
     ram: '16',
     brand: 'HP',
 
-    greet: function(){
-        console.log('Hello World');
+    getConfig: function(){
+        
+        console.log(this.cpu);
     }
 }
 
-laptop.greet();
+laptop.getConfig();
