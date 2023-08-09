@@ -993,10 +993,56 @@
 //         console.log(n);
 //     });
 
-let nums = [42,52,24,98,65,12];
+// let nums = [42,52,24,98,65,12];
 
-let result = nums.filter( n => n%2===0 )
-    .map( n => n*2)
-    .reduce((a,b) => a+b);
+// let result = nums.filter( n => n%2===0 )
+//     .map( n => n*2)
+//     .reduce((a,b) => a+b);
 
-console.log(result);
+// console.log(result);
+
+//--------------------------------------------------------------------------------------------------------------
+
+//Set in Javascript
+
+// let nums = new Set("bookkeeper");
+// console.log(nums);
+
+// let nums = new Set();
+
+// nums.add(3);
+// nums.add(4);
+// nums.add(3);
+// nums.add("Saichand");
+// nums.add("Kiran");
+// nums.add("Saichand");
+
+// nums.forEach(value => {
+//     console.log(value);
+// });
+
+
+// let nums = new Set();
+
+// nums.add(3);
+// nums.add(4);
+// nums.add(3);
+// nums.add("Saichand");
+// nums.add("Kiran");
+// nums.add("Saichand");
+
+
+//     console.log(nums.has(3));
+
+
+let nums = new Set();
+
+nums.add(3);
+nums.add(4);
+nums.add(3);
+nums.add("Saichand");
+nums.add("Kiran");
+nums.add("Saichand");
+
+
+    console.log(nums.has(5));
