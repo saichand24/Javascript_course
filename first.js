@@ -457,9 +457,34 @@
 // i++;
 // }
 
-let i = 1;
-do
+// let i = 1;
+// do
+// {
+// console.log("Hi");
+// i++;
+// }while(i<=5)
+//----------------------------------------------------------------------------------------------------------------
+//For loop
+// for(let i =1;i<=5;i++)
+// {
+//     console.log("Hi")
+// }
+// let i = 1;
+// for(;i<=5;i++)
+// {
+//     console.log("Hi");
+// }
+// let i = 1;
+// for(;i<=5;)
+// {
+//     console.log("Hi");
+//     i++;
+// }
+
+for(let i = 1;i<=5;i++)
 {
-console.log("Hi");
-i++;
-}while(i<=5)
+    console.log("Hi",i);
+    
+    for(let j = 1;j<=5;j++)
+    console.log("Hello",j);
+}
