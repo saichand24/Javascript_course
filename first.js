@@ -762,20 +762,46 @@
 
 //contructor function in javascript
 
-function Alien(name, tech){
-    this.name = name;
-    this.tech = tech;
+// function Alien(name, tech){
+//     this.name = name;
+//     this.tech = tech;
 
-    this.work = function(){
-        console.log("solving bugs from 12 hrs")
-    }
-}
+//     this.work = function(){
+//         console.log("solving bugs from 12 hrs")
+//     }
+// }
 
-let alien1 = new Alien('Saichand', 'JS')
-let alien2 = new Alien('Kiran', 'java')
+// let alien1 = new Alien('Saichand', 'JS')
+// let alien2 = new Alien('Kiran', 'java')
 
-alien1.tech = 'Blockchain';
+// alien1.tech = 'Blockchain';
 
-console.log(alien1);
+// console.log(alien1);
 
-alien1.work();
+// alien1.work();
+
+//---------------------------------------------------------------------------------------------------------
+
+//Arrays
+
+// let Values = [];
+
+// console.log(Values);
+
+// let Values = [5,7,8];
+
+// console.log(Values);
+
+// let Values = [5,7,8];
+
+// console.log(Values.length);
+
+// let Values = [];
+
+// Values.push(5);
+
+// console.log(Values);
+
+let Values = [5,7,8];
+
+console.log(Values[0]);
