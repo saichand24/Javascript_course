@@ -802,6 +802,18 @@
 
 // console.log(Values);
 
-let Values = [5,7,8];
+// let Values = [5,7,8];
 
-console.log(Values[0]);
+// console.log(Values[0]);
+
+//-----------------------------------------------------------------------------------------------
+
+//different types of data in array
+
+// let names = ['Saichand', 'Navin', 'Kiran']
+
+// console.log(names);
+
+let data = ['Saichand', 5, {tech: 'JS'}, function(){console.log("hello world");}];
+
+console.log(data);
