@@ -857,8 +857,41 @@
 
 // console.log(data);
 
-let data = [5,7,8,9,4];
+// let data = [5,7,8,9,4];
 
-console.log(data.splice(2,1, 11));
+// console.log(data.splice(2,1, 11));
 
-console.log(data);
+// console.log(data);
+
+//------------------------------------------------------------------------------------------------
+
+// For of loop with an array in javascript
+
+// let nums = [];
+
+// nums[0] = 5;
+// nums[99] = 9;
+
+// console.log(nums);
+
+// let nums = [];
+
+// nums[0] = 5;
+// nums[99] = 9;
+
+// for(let n of nums){
+//     console.log(n);
+// }
+
+let nums = [];
+
+nums[0] = 5;
+nums[99] = 9;
+
+// for(let n of nums){
+//     console.log(n);
+// }
+
+for(let key in nums){
+    console.log(nums[key]);
+}
