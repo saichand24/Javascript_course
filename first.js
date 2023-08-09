@@ -883,15 +883,55 @@
 //     console.log(n);
 // }
 
-let nums = [];
+// let nums = [];
 
-nums[0] = 5;
-nums[99] = 9;
+// nums[0] = 5;
+// nums[99] = 9;
 
 // for(let n of nums){
 //     console.log(n);
 // }
 
-for(let key in nums){
-    console.log(nums[key]);
-}
+// for(let key in nums){
+//     console.log(nums[key]);
+// }
+
+//-----------------------------------------------------------------------------------------------
+
+//Array Destructuring in Javascript
+
+// let nums = [5,7,2,4]
+// console.log(nums);
+// let [a,b,c,d] = nums;
+
+// console.log(c);
+
+// let nums = [5,7,2,4]
+// console.log(nums);
+// let [a,b,,d] = nums;
+
+// console.log(d);
+
+
+// let a = 5;
+// let b = 6;
+
+// [a,b] = [b,a]
+
+// console.log(a,b);
+
+// let words = "My Name is Saihcand";
+
+// console.log(words);
+
+// let words = "My Name is Saihcand".split(' ');
+
+// let [a,b,c,d,e] = words;
+
+// console.log(a , b);
+
+let words = "My Name is Saihcand".split(' ');
+
+let [a,b,, ...d] = words;
+
+console.log(d);
