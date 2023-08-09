@@ -481,10 +481,46 @@
 //     i++;
 // }
 
-for(let i = 1;i<=5;i++)
-{
-    console.log("Hi",i);
+// for(let i = 1;i<=5;i++)
+// {
+//     console.log("Hi",i);
     
-    for(let j = 1;j<=5;j++)
-    console.log("Hello",j);
+//     for(let j = 1;j<=5;j++)
+//     console.log("Hello",j);
+// }
+
+// for(let i=1;i<=100;i++)
+// {
+//     if(i%3===0)
+//     console.log(i);
+// }
+
+// let num = 123456
+
+// console.log(num%10);
+
+// num = parseInt(num /10)
+
+// console.log(num)
+
+// console.log(num%10);
+
+// num = parseInt(num /10)
+
+// console.log(num)
+
+// console.log(num%10);
+
+// num = parseInt(num /10)
+
+// console.log(num)
+
+let num = 123456
+
+while(num>0)
+{
+console.log(num%10);
+
+num = parseInt(num /10)
+
 }
