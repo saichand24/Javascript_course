@@ -1089,13 +1089,25 @@
 // }
 
 
-let map = new Map();
+// let map = new Map();
 
-map.set("Saichand", "java");
-map.set("Kiran", "Android");
-map.set("Navin", "ML");
-map.set("Saichand", "BLockchain");
+// map.set("Saichand", "java");
+// map.set("Kiran", "Android");
+// map.set("Navin", "ML");
+// map.set("Saichand", "BLockchain");
 
-map.forEach((v,k) => {
-    console.log(k, " : ", v);
-});
+// map.forEach((v,k) => {
+//     console.log(k, " : ", v);
+// });
+
+//---------------------------------------------------------------------------------------------------------
+
+//Recursion
+let num = 1;
+function show(){
+    console.log("hi", num);
+    num++;
+    show();
+}
+
+show();
