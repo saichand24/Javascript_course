@@ -611,15 +611,24 @@
 
 //Functions in javascript
 
-function greet()
+// function greet()
+// {
+//     console.log("Hello world");
+// }
+
+// greet();
+// greet();
+// greet();
+// greet();
+// greet();
+
+//function return and passing
+
+function greet(user)
 {
-    console.log("Hello world");
+    return `Hello ${user}`
 }
 
-greet();
-greet();
-greet();
-greet();
-greet();
-
-
+let user = 'Saichand';
+let str = greet(user);
+console.log(str);
