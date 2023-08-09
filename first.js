@@ -607,7 +607,19 @@
 // {
 //     console.log(key, alien[key]);
 // }
+//------------------------------------------------------------------------------------
 
+//Functions in javascript
 
+function greet()
+{
+    console.log("Hello world");
+}
+
+greet();
+greet();
+greet();
+greet();
+greet();
 
 
