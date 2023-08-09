@@ -673,16 +673,32 @@
 
 //Arrow function in JavaScript
 
-let greet = (user) => {
-    console.log('Hello ' + user);
-    return 1;
+// let greet = (user) => {
+//     console.log('Hello ' + user);
+//     return 1;
+// }
+
+// console.log(greet('Saichand'));
+
+// let add = (num1,num2) => num1 + num2;
+
+
+// let result = add(5,6)
+
+// console.log(result);
+
+//---------------------------------------------------------------------------------------------------
+
+//Methods in JavaScript?
+
+let laptop = {
+    cpu: 'i9',
+    ram: '16',
+    brand: 'HP',
+
+    greet: function(){
+        console.log('Hello World');
+    }
 }
 
-console.log(greet('Saichand'));
-
-let add = (num1,num2) => num1 + num2;
-
-
-let result = add(5,6)
-
-console.log(result);
+laptop.greet();
