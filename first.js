@@ -515,12 +515,39 @@
 
 // console.log(num)
 
-let num = 123456
+// let num = 123456
 
-while(num>0)
-{
-console.log(num%10);
+// while(num>0)
+// {
+// console.log(num%10);
 
-num = parseInt(num /10)
+// num = parseInt(num /10)
+
+// }
+
+//------------------------------------------------------------------------------
+//objects
+
+// let alien = {}
+// console.log(alien);
+
+// let alien = {}
+// console.log(typeof alien);
+
+// let alien = {
+//     name: 'Saichand',
+//     tech: 'js',
+//     'work exp': 4
+
+// }
+// console.log(alien['work exp']);
+
+
+let input = 'name'
+let alien = {
+    name: 'Saichand',
+    tech: 'js',
+    'work exp': 4
 
 }
+console.log(alien[input]);
