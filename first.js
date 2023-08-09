@@ -724,36 +724,58 @@
 
 
 
-let laptop2 = {
-    cpu: 'i7',
-    ram: '16',
-    brand: 'Apple',
+// let laptop2 = {
+//     cpu: 'i7',
+//     ram: '16',
+//     brand: 'Apple',
 
-    getConfig: function(){
+//     getConfig: function(){
         
-        console.log(this.cpu);
+//         console.log(this.cpu);
+//     }
+// }
+
+// laptop2.getConfig();
+
+// let laptop1 = {
+//     cpu: 'i9',
+//     ram: '16',
+//     brand: 'HP',
+
+//     compare: function(other){
+//         if(this.cpu > other.cpu)
+//             console.log(this);
+//         else
+//             console.log(other);
+//     },
+
+//     getConfig: function(){
+        
+//         console.log(this.cpu);
+//     }
+// }
+
+
+// laptop1.compare(laptop2)
+
+//---------------------------------------------------------------------------------------
+
+//contructor function in javascript
+
+function Alien(name, tech){
+    this.name = name;
+    this.tech = tech;
+
+    this.work = function(){
+        console.log("solving bugs from 12 hrs")
     }
 }
 
-laptop2.getConfig();
+let alien1 = new Alien('Saichand', 'JS')
+let alien2 = new Alien('Kiran', 'java')
 
-let laptop1 = {
-    cpu: 'i9',
-    ram: '16',
-    brand: 'HP',
+alien1.tech = 'Blockchain';
 
-    compare: function(other){
-        if(this.cpu > other.cpu)
-            console.log(this);
-        else
-            console.log(other);
-    },
+console.log(alien1);
 
-    getConfig: function(){
-        
-        console.log(this.cpu);
-    }
-}
-
-
-laptop1.compare(laptop2)
+alien1.work();
