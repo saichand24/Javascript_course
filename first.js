@@ -1103,11 +1103,26 @@
 //---------------------------------------------------------------------------------------------------------
 
 //Recursion
-let num = 1;
-function show(){
-    console.log("hi", num);
-    num++;
-    show();
+// let num = 1;
+// function show(){
+//     console.log("hi", num);
+//     num++;
+//     show();
+// }
+
+// show();
+
+//--------------------------------------------------------------------------------------------------------------------
+
+//Factorial using Recursion
+
+function fact(n){
+    if(n==0)
+        return 1;
+    else
+        return n * fact(n-1);
 }
 
-show();
+let num = 5;
+let result = fact(num);
+console.log(result);
