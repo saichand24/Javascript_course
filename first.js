@@ -930,8 +930,28 @@
 
 // console.log(a , b);
 
-let words = "My Name is Saihcand".split(' ');
+// let words = "My Name is Saihcand".split(' ');
 
-let [a,b,, ...d] = words;
+// let [a,b,, ...d] = words;
 
-console.log(d);
+// console.log(d);
+
+//----------------------------------------------------------------------------------
+
+//Array forEach Method in javacript
+
+// let nums = [42,52,24,98,65,12];
+
+// console.log(nums);
+
+// let nums = [42,52,24,98,65,12];
+
+// nums.forEach((n) => {
+//     console.log(n);
+// });
+
+let nums = [42,52,24,98,65,12];
+
+nums.forEach((n,i,nums) => {
+    console.log(n, i, nums);
+});
