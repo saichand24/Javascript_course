@@ -635,12 +635,36 @@
 
 //Function Expression in JavaScript
 
-let add = function(num1, num2)
-            {
-                return num1 + num2;
-            }
-let sum = add
+// let add = function(num1, num2)
+//             {
+//                 return num1 + num2;
+//             }
+// let sum = add
 
-let result = sum(5.6)
+// let result = sum(5.6)
 
-console.log(sum);
+// console.log(sum);
+
+//--------------------------------------------------------------------------------------------------
+
+//Local-Global Variable | Default Value in JavaScript
+
+// let user = 'Saichand';
+
+// function greet(u)
+// {
+//     let num = 5;
+//     console.log(num);
+//     return `Hello ${u}`
+// }
+
+// let str = greet(user);
+// console.log(str);
+
+function add(num1,num2)
+{
+    return num1 + num2;
+}
+
+let result = add(5,6);
+console.log(result);
