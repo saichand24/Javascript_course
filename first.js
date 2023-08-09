@@ -543,11 +543,71 @@
 // console.log(alien['work exp']);
 
 
-let input = 'name'
-let alien = {
-    name: 'Saichand',
-    tech: 'js',
-    'work exp': 4
+// let input = 'name'
+// let alien = {
+//     name: 'Saichand',
+//     tech: 'js',
+//     'work exp': 4
 
-}
-console.log(alien[input]);
+// }
+// console.log(alien[input]);
+
+//complex object
+
+// let alien = {
+//     name : 'Saichand',
+//     tech : 'js',
+//     laptop : {
+//         cpu : '17',
+//         ram : '4',
+//         brand : 'Asus'
+//     }
+// }
+// console.log(alien.laptop.brand.length);
+
+// let alien = {
+//     name : 'Saichand',
+//     tech : 'js',
+//     laptop : {
+//         cpu : '17',
+//         ram : '4',
+//         brand : 'Asus'
+//     }
+// }
+// console.log(alien.laptop.brand.length);
+// delete alien.laptop
+// console.log(alien);
+
+//for loop in javascript
+
+// let alien = {
+//         name : 'Saichand',
+//         tech : 'js',
+//         laptop : {
+//             cpu : '17',
+//             ram : '4',
+//             brand : 'Asus'
+//         }
+//     }
+//     for(let key in alien)
+//     {
+//         console.log(key);
+//     }
+
+// let alien = {
+//     name : 'Saichand',
+//     tech : 'js',
+//     laptop : {
+//         cpu : '17',
+//         ram : '4',
+//         brand : 'Asus'
+//     }
+// }
+// for(let key in alien)
+// {
+//     console.log(key, alien[key]);
+// }
+
+
+
+
