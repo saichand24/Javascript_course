@@ -1035,14 +1035,67 @@
 //     console.log(nums.has(3));
 
 
-let nums = new Set();
+// let nums = new Set();
 
-nums.add(3);
-nums.add(4);
-nums.add(3);
-nums.add("Saichand");
-nums.add("Kiran");
-nums.add("Saichand");
+// nums.add(3);
+// nums.add(4);
+// nums.add(3);
+// nums.add("Saichand");
+// nums.add("Kiran");
+// nums.add("Saichand");
 
 
-    console.log(nums.has(5));
+//     console.log(nums.has(5));
+
+//---------------------------------------------------------------------------------------------
+
+// map in javacript
+
+// let map = new Map();
+
+// map.set("Saichand", "java");
+// map.set("Kiran", "Android");
+// map.set("Navin", "ML");
+
+// console.log(map.keys());
+
+// let map = new Map();
+
+// map.set("Saichand", "java");
+// map.set("Kiran", "Android");
+// map.set("Navin", "ML");
+
+// console.log(map.has("Saichand"));
+
+// let map = new Map();
+
+// map.set("Saichand", "java");
+// map.set("Kiran", "Android");
+// map.set("Navin", "ML");
+
+// for(let [k,v] of map){
+// console.log(k, " : ", v);
+// }
+
+// let map = new Map();
+
+// map.set("Saichand", "java");
+// map.set("Kiran", "Android");
+// map.set("Navin", "ML");
+// map.set("Saichand", "BLockchain");
+
+// for(let [k,v] of map){
+// console.log(k, " : ", v);
+// }
+
+
+let map = new Map();
+
+map.set("Saichand", "java");
+map.set("Kiran", "Android");
+map.set("Navin", "ML");
+map.set("Saichand", "BLockchain");
+
+map.forEach((v,k) => {
+    console.log(k, " : ", v);
+});
